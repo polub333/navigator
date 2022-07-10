@@ -10,12 +10,17 @@ CONFIG += c++17
 
 SOURCES += \
     Engine/engine.cpp \
+    Engine/node.cpp \
+    Engine/path.cpp \
     Scene/scene.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
     Engine/engine.h \
+    Engine/node.h \
+    Engine/path.h \
+    Engine/pathtype.h \
     Scene/scene.h \
     mainwindow.h
 
